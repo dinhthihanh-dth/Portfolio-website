@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./contact.css";
+import "./Contact.css";
 import { Element } from "react-scroll";
 
 const Contact = () => {
