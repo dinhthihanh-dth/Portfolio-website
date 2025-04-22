@@ -1,0 +1,36 @@
+.mywork {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.mywork-title h1 {
+    font-size: 70px;
+    font-weight: 600px;
+    margin-bottom: 80px;
+}
+
+.mywork-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột cố định */
+    gap: 30px;
+    justify-items: center; /* căn giữa từng item trong ô */
+}
+
+.mywork-item img {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    /* XÓA margin-left để ảnh không bị lệch */
+}
+
+.mywork-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.mywork-item img:hover {
+    transform: scale(1.05);
+}

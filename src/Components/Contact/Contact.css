@@ -1,0 +1,106 @@
+.contact-container {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 3rem;
+    min-height: 100vh;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .contact-left {
+    margin-left: 100px;
+    padding-left: 1rem; /* nếu muốn tí khoảng cách */
+  }
+  
+  .contact-left h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+.contact-detail {
+  display: flex;
+  align-items: center;     /* căn icon và chữ cùng hàng dọc */
+  gap: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.contact-detail span {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.contact-detail p {
+  margin:0;     /* loại bỏ margin dưới gây lệch */
+}
+
+  
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: #111;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-right: 100px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+  }
+  
+  .contact-form label {
+    font-size: 0.95rem;
+  }
+  
+  .captcha-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .captcha-logo {
+    height: 24px;
+    margin-left: auto;
+  }
+  
+  .submit-btn {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, #a855f7, #fb923c);
+    border: none;
+    border-radius: 9999px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .highlight-purple {
+    color: #a855f7;
+  }
+  
+  .highlight-orange {
+    color: #fb923c;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
